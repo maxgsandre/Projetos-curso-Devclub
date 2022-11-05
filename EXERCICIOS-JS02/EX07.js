@@ -1,4 +1,12 @@
 /*
-7.Faça um programa onde leia um número e diga se ele é: - ímpar, - par, - é um número primo e impar, 
-- é par e divisível por 5.
+6.Faça um programa onde leia um numero e diga se ele é par ou impar.
 */
+
+let number = 8
+
+if (number % 2 === 0)
+
+    console.log ("O numero é Par")
+
+        else console.log ("O numero é impar")
+

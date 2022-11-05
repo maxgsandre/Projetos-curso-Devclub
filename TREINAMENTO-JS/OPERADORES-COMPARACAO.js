@@ -1,5 +1,5 @@
 
-
+{
 const firstNumber ="27"
 const seccondNumber = 27
 
@@ -28,3 +28,6 @@ console.log(number3 > number4) // false
 console.log(number3 < number4) // true
 console.log(number3 >= number4) // false
 console.log(number3 <= number4) // true
+
+}
+
