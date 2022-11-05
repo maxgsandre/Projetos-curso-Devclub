@@ -2,14 +2,16 @@
 e escrever a tabuada de 1 a 10 do valor lido.
 */
 
-function sum (number) {
-   if (number < 1 || number > 10){
-      console.log("Somente numeros de 1 á 10")
-      return
-     }
+function sum (number){
 
-     for (i = 1; i <= 10; i++){
-        console.log(`${i} x ${number} = ${i*number}`)
-     }
-}
-sum(9)
+      if (number < 1 || number > 10){
+         console.log ("Somente numeros de 1 á 10")
+         return
+      }
+
+      for (i = 1; i <= 10; i++){
+         console.log (`${i} x ${number} = ${i*number}`)
+      }
+   }
+
+sum(7)
