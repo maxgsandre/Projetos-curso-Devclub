@@ -31,6 +31,7 @@ const people = [
     },
 ]
 
+/* 
 function find_average_and_highest_salary(people){
     let average_salary = 0
     let average_children = 0
@@ -53,6 +54,27 @@ function find_average_and_highest_salary(people){
             average_children += children
         }
     }
+}
+
+find_average_and_highest_salary(people)
+*/
+
+function find_average_and_highest_salary(people){
+    let i = 0;
+    let average_salary = 0
+    let average_children = 0
+    let highest_salary = 0
+
+    while (people[i].salary > 0) {
+        average_salary = average_salary + people[i].salary
+        average_children += people[i].numberOfChildren
+        people[i].salary > highest_salary ? highest_salary = people[i].salary : highest_salary = highest_salary
+        i++
+    }
+
+            console.log(`Média de sálario R$ ${(average_salary / i).toFixed(0)}`)
+            console.log(`Média de filhos ${(average_children / i).toFixed(0)}`)
+            console.log(`Maior Sálario R$ ${highest_salary}`)
 }
 
 find_average_and_highest_salary(people)
