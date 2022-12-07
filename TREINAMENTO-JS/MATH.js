@@ -1,0 +1,8 @@
+
+
+console.log(Math.PI) // MOSTRA O VALOR DE PI
+console.log(Math.pow (2,2)) // PERMITE USAR POTENCIA
+console.log(Math.sqrt (9)) // MOSTRA A RAIZ QUADRADA DE UM NUMERO
+console.log(Math.random ()) // MOSTRA UM NUMERO ALEATORIO ENTRE 0 E 1
+console.log(Math.ceil ()) // ARREDONDA O NUMERO QUEBRADO PARA UM NUMERO INTEIRO PARA CIMA
+console.log(Math.floor ()) // ARREDONDA O NUMERO QUEBRADO PARA UM NUMERO INTEIRO PARA BAIXO
